@@ -1,0 +1,10 @@
+div i{
+    font-size: 40px;
+    color: #fff;
+    margin-right: 15px;
+    transition: .5s;
+}
+
+div i:hover{
+    color: rgb(68, 57, 221);
+}

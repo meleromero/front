@@ -1,0 +1,29 @@
+.container{
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 8px;
+    box-shadow:5px 5px 5px black;
+    transition: .5s;
+    font-family: "Roboto Mono";
+}
+
+.container:hover{
+    transform: translate(10px, 10px);
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul li{
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
